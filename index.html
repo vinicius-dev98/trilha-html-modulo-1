@@ -1,62 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    <title>Primeiros passos HTML</title>
 </head>
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
-    <hr />
+    <h1 id="inicio"> Aprendendo sobre HTML</h1>
+    <hr/>
 
     <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+        <li><a href="#Entendendo">Entendendo Comunicação Client x Server</a></li>
+        <li><a href="#Clients">O que são clients</a></li>
+        <li><a href="#Servers">O que são Servers</a></li>
+        <li><a href="#Linguagens">Linguagens de Programação</a></li>
+        <li><a href="#html">HTML não é linguagem de programação</a></li>   
     </ul>
+    <h2 id="Entendendo">Entendendo Comunicação Client x Server</h2>
+    <small><a href="#inicio">(voltar)</a></small>
+        <blockquote><p>A arquitetura cliente servidor é uma arquitetura de aplicação distribuída, ou seja, na rede existem os fornecedores de recursos 
+            ou serviços a rede, que são chamados de <mark>servidores</mark>, e existem os requerentes dos recursos ou serviços, denominados <mark>clientes.</mark>
+            O cliente não compartilha nenhum de seus recursos com o servidor, mas no entanto ele solicita alguma função do servidor, sendo ele, o cliente,
+            responsável por iniciar a comunicação com o servidor, enquanto o mesmo aguarda requisições de entrada.        
+        </p></blockquote>
+    
+    <h2 id="Clients">O que são clients</h2>
+    <small><a href="#inicio">(voltar)</a></small>
+        <blockquote><p><i>Clients</i> são todos aqueles dispositivos usadados para acessar arquivos ou recursos que se encontram em um servidor,
+        como <u>por exemplo</u>:
+        <ol>
+            <strong><li>Celulares</li>
+            <li>Tablets</li>
+            <li>Notebooks</li>
+            <li>Computadores</li></strong>
+        </ol>
+        </p></blockquote>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="Servers">O que são Servers</h2>
+    <small><a href="#inicio">(voltar)</a></small>
+        <blockquote><p>Um servidor, em suma, é um computador com grande capacidade de armazenamento e processamento cujo objetivo é conectar outros computadores através de uma rede.
+            Os servidores processam e executam solicitações feitas por usuário através de softwares, bancos de dados, envio e recebimento de informações como e-mails, 
+            envio de formulários, hospedagem de websites e outros.        
+            Um servidor funciona, grosso modo, como um grande computador, mas ao invés de executar operações em nível doméstico, ele o faz em grande escala,
+            transferindo esses resultados para diferentes computadores.
+        </p>
+            <h4>Para que serve um servidor?</h4>
+            <p>Um servidor serve para centralizar grandes operações virtuais em um único "computador", trazendo mais desempenho para a execução de determinadas tarefas.
+                Quando uma empresa precisa, por exemplo, de uma ferramenta específica para executar uma tarefa, um servidor torna desnecessária a instalação desta ferramentas
+                em cada uma das máquinas que precisarão utilizá-la: basta tê-la instalada em um servidor a que todos estes computadores estejam conectados.
+            </p>
+        </blockquote>    
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="Linguagens">Linguagens de Programação</h2>
+    <small><a href="#inicio">(voltar)</a></small>
+        <blockquote><p>A linguagem de programação é um método padronizado, formado por um conjunto de regras sintáticas e semânticas, de implementação de um código fonte - que pode ser compilado
+            e transformado em um programa de computador, ou usado como script interpretado - que informará instruções de processamento ao computador. Permite que um programador especifique
+            precisamente quais os dados que o computador irá atuar, como estes dados serão armazenados ou transmitidos e, quais ações devem ser tomadas de acordo com as circunstâncias. 
+            Linguagens de programação podem ser usadas para expressar algoritmos com precisão.
+        </p>
+        <p>Linguagens de programação também tornam os programas menos dependentes de computadores ou ambientes computacionais específicos (propriedade chamada de portabilidade). 
+            Isto acontece porque programas escritos em linguagens de programação são traduzidos para o código de máquina do computador no qual será executado em vez de ser diretamente executado.
+            Uma meta ambiciosa do Fortran, uma das primeiras linguagens de programação, era esta independência da máquina onde seria executada.
+        </p>
+        <p>Uma linguagem de programação pode ser convertida, ou traduzida, em código de máquina por compilação ou interpretada por um processo denominado interpretação. Em ambas ocorre a tradução
+            do código fonte para código de máquina.
+            Se o método utilizado traduz todo o texto do programa (também chamado de código), para só depois executar o programa, então diz-se que o programa foi compilado e que o mecanismo utilizado
+            para a tradução é um compilador (que por sua vez nada mais é do que um programa). A versão compilada do programa tipicamente é armazenada, de forma que o programa pode ser executado
+            um número indefinido de vezes sem que seja necessária nova compilação, o que compensa o tempo gasto na compilação. Isso acontece com linguagens como Pascal e C.            
+            Se o texto do programa é executado à medida que vai sendo traduzido, como em <sub>JavaScript, BASIC, Python ou Perl</sub>, num processo de tradução de trechos seguidos de sua execução imediata,
+            então diz-se que o programa foi interpretado e que o mecanismo utilizado para a tradução é um interpretador. Programas interpretados são geralmente mais lentos do que os compilados,
+            mas são também geralmente mais flexíveis, já que podem interagir com o ambiente mais facilmente.
+        </p></blockquote>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
-    <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
-    </ul>
-
+    <h2 id="html">HTML não é linguagem de programação</h2>
+    <small><a href="#inicio">(voltar)</a></small>
+    <blockquote><p>A Linguagem de Marcação de Hipertexto <sup>(HTML)</sup> é uma linguagem de computador que compõe a maior parte das páginas da internet e dos aplicativos online. Um hipertexto é um texto
+        usado para fazer referência a outros textos, enquanto uma linguagem de marcação é composta por uma série de marcações que dizem para os servidores da web qual é o estilo e a estrutura de um documento.</p>
+        <p><abbr title="HyperText Marked Language">HTML</abbr> <del>não</del> é considerado uma linguagem de programação, já que ele não pode criar funcionalidades dinâmicas. Ao invés disso, com o HTML, os usuários podem criar e estruturar seções, parágrafos e links usando elementos, tags e atributos.</p>
+        <p>Também vale notar que o HTML agora é considerado um padrão oficial da internet. O World Wide Web Consortium (W3C) mantêm e desenvolve especificações do HTML, além de providenciar atualizações regulares.
+    </p></blockquote>
 </body>
 </html>
